@@ -41,3 +41,4 @@ using 1, 2 and 3, thus changing the GUI`
 ![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/openglGameO.png)
 ![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/openglL.png)
 # nibbler
+# blackjack
