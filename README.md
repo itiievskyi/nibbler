@@ -1,43 +1,26 @@
-# Nibbler
-Snake is a classical game from the 70’s, this project is yet another snake video game written in C++ including a major twist: 3 graphic dynamic libraries.
+# Nibbler (42 School Project)
+Nibbler is yet another snake video game written in C++ including a major twist: dynamic libraries. The goal is splitted in 4 parts : a main executable and 3 dynamic libraries that main executable will load and use at runtime. Each library will embed everything the main executable might need to display the game and to get the player’s inputs. The main executable will only focus on the game logic and interact with the dynamic libraries. The main executable must interact in a identical way with any of your libraries.ies.
 
 ***
-<https://en.wikipedia.org/wiki/Snake_(video_game_genre)>
-
+This project was completed in collaboration with @mshkliai
 ***
-#### It's a group project on two project, that a made of 2 major parts:
-1. Main program (logic core)
-2. Three Dynamic-graphic libraries, that the logical core works with.
-#### I wrote a logic core and dynamic library with SFML.
 
-***
-### ***Usage:***
+### Libraries
+There are 3 graphic libraries used in this project:
+* OpenGL
+* SFML
+* SDL2
 
-* `git clone https://github.com/mshkliai/Nibbler.git`
-* `cd Nibbler`
-* `make install`
-* `./snake [1500-2500] [1500-2500] dyn1.so dyn2.so dyn3.so`
-* `You can switch from one dynamic library to one another by
-using 1, 2 and 3, thus changing the GUI`
+### How to use
+* git clone https://github.com/mshkliai/Nibbler.git ~/nibbler
+* cd ~/nibbler/
+* make install
+* ./snake [1500-2500] dyn1.so dyn2.so dyn3.so
+* Use arrow keys to manage the Snake moves. Use Enter for menu choise. Use Space for pause and Esc to quit the current game.
+* Switch from one dynamic library to one another by pressing 1, 2 and 3.
 
-***
-## Project screenshots:
-### SFML:
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sfmlMenu.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sfml1.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sfml2.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sfmlGameO.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sfmlL.png)
-### SDL:
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sdlMenu.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sdl1.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sdl2.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sdlGameO.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/sdlL.png)
-### OpenGL:
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/openglMenu.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/opengl.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/opengl2.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/openglGameO.png)
-![a:](https://github.com/mshkliai/Nibbler/raw/master/screenshots/openglL.png)
-# nibbler
+### Screenshots
+![Opengl](images/1.png)
+![SDL2](images/2.png)
+![SFML](images/3.png)
+### Enjoy!
